@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5a615bb-3f9a-483d-809a-d23621b76264" name="stgl" url="http://123.207.96.28:2022">
+        <fileTransfer host="123.207.96.28" port="22" rootFolder="/myworkspace" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="60622ad6-223d-4ac6-8f92-e2140bd170b0" name="我的百度云" url="http://106.12.91.195">
+        <fileTransfer host="106.12.91.195" port="22" rootFolder="/root" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="febc2f62-6783-4ec4-b591-fc8958f56da5" name="刘杨腾讯云服务器" url="http://123.207.96.28">
+        <fileTransfer host="123.207.96.28" port="22" rootFolder="/var/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
